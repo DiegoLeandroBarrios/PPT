@@ -1,0 +1,66 @@
+body {
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ppt {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.campoBatalla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.356);
+  padding: 20px;
+  border-radius: 20px;
+}
+.cajaBatalla {
+  margin: 15px;
+}
+.mensajeVS {
+  font-size: 30px;
+}
+.imgBatalla {
+  border-radius: 50%;
+}
+.btnAtack {
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px;
+  transition: 0.4s;
+}
+.btnAtack:hover {
+  box-shadow: 1px 1px 4px rgba(255, 1, 1, 0.527);
+  transform: scale(1.05);
+  cursor: pointer;
+  margin: 10px;
+}
+.resultado {
+  padding-top: 10px;
+  font-size: 36px;
+  font-weight: bold;
+}
+.atack {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
