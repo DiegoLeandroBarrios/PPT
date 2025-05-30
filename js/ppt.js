@@ -14,15 +14,15 @@ var imagenPC;
 const imagenes = [
   {
     name: "Piedra",
-    URL: "/img/Piedra.PNG",
+    URL: "./img/Piedra.PNG",
   },
   {
     name: "Papel",
-    URL: "/img/Papel.PNG",
+    URL: "./img/Papel.PNG",
   },
   {
     name: "Tijera",
-    URL: "/img/Tijeras.PNG",
+    URL: "./img/Tijeras.PNG",
   },
 ];
 
