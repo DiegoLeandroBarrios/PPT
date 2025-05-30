@@ -104,13 +104,13 @@ function addImagenes() {
     if (opcionJugador == objeto.name) {
       imagenJugador = objeto.URL;
       console.log(imagenJugador);
-      var insertar = `<img class="imgBatalla" src=${imagenJugador}>`;
+      var insertar = `<img class="imgBatalla" src="${imagenJugador}">`;
       imgJugador.innerHTML = insertar;
     }
     if (opcionPC == objeto.name) {
       imagenPC = objeto.URL;
       console.log(imagenPC);
-      var insertar = `<img class="imgBatalla" src=${imagenPC}>`;
+      var insertar = `<img class="imgBatalla" src="${imagenPC}">`;
       imgPc.innerHTML = insertar;
     }
   });
